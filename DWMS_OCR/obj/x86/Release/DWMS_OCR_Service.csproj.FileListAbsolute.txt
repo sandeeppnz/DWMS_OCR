@@ -1,0 +1,7 @@
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Release\ResolveAssemblyReference.cache
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Release\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Release\DWMS_OCR.ProjectInstaller.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Release\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Release\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Release\ResGen.read.1.tlog
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Release\ResGen.write.1.tlog

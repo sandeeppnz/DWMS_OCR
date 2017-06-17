@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWMS_OCR_Service", "DWMS_OCR\DWMS_OCR_Service.csproj", "{260DCD01-F034-45F4-994D-64E52CFC218D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DWMS_OCR_Setup", "DWMS_OCR_Setup\DWMS_OCR_Setup.vdproj", "{38531475-0588-4248-B8AA-058F07670328}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{260DCD01-F034-45F4-994D-64E52CFC218D}.Debug|x86.ActiveCfg = Debug|x86
+		{260DCD01-F034-45F4-994D-64E52CFC218D}.Debug|x86.Build.0 = Debug|x86
+		{260DCD01-F034-45F4-994D-64E52CFC218D}.Release|x86.ActiveCfg = Release|x86
+		{260DCD01-F034-45F4-994D-64E52CFC218D}.Release|x86.Build.0 = Release|x86
+		{38531475-0588-4248-B8AA-058F07670328}.Debug|x86.ActiveCfg = Debug
+		{38531475-0588-4248-B8AA-058F07670328}.Debug|x86.Build.0 = Debug
+		{38531475-0588-4248-B8AA-058F07670328}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

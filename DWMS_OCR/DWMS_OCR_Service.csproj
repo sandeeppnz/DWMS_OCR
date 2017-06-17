@@ -1,0 +1,1090 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{260DCD01-F034-45F4-994D-64E52CFC218D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DWMS_OCR</RootNamespace>
+    <AssemblyName>DWMS_OCR_Service</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>W:\DWMS_OCR\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DWMS_OCR.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>FEE70454BF025750B5857F832A8C5D82359C393D</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>DWMS_OCR_Service_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ABCpdf, Version=9.1.1.7, Culture=neutral, PublicKeyToken=a7a0b3f5184f2169, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\WebSupergoo\ABCpdf .NET 9.1\ABCpdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.Communications.PipeMessaging, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.Communications.PipeMessaging.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.OCR.Api, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.OCR.Api.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.OCR.Definitions, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.OCR.Definitions.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.OCR.HtmlHandler, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.OCR.HtmlHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.OCR.Manager, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.OCR.Manager.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.OCR.OcrEngine, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.OCR.OcrEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.OCR.OcrResultChecker, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.OCR.OcrResultChecker.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.OCR.PdfHandler, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.OCR.PdfHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.OCR.RtfHandler, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.OCR.RtfHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.OCR.TxtHandler, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.OCR.TxtHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.PdfToImage, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.PdfToImage.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.PdfToImageOD, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.PdfToImageOD.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.Shared.Exceptions, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.Shared.Exceptions.dll</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.Shared.Settings, Version=1.40.20820.0, Culture=neutral, PublicKeyToken=e01213583c2c8425, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hiend-server001\Public2\Matthew\aquaforest\1.3\Aquaforest.Shared.Settings.DLL</HintPath>
+    </Reference>
+    <Reference Include="Aquaforest.Utilities.UnmanagedLibraryLoader">
+      <HintPath>\\hiend-server001\public2\Matthew\aquaforest\1.3\Aquaforest.Utilities.UnmanagedLibraryLoader.DLL</HintPath>
+    </Reference>
+    <Reference Include="commons-logging">
+      <HintPath>..\..\..\Prototype\Pdf2Text\Pdf2Text\lib\copy\commons-logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyotek.GhostScript, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DWMS\Bin\Cyotek.GhostScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Cyotek.GhostScript.PdfConversion, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DWMS\Bin\Cyotek.GhostScript.PdfConversion.dll</HintPath>
+    </Reference>
+    <Reference Include="fontbox-1.7.0">
+      <HintPath>..\..\..\Prototype\Pdf2Text\Pdf2Text\lib\copy\fontbox-1.7.0.dll</HintPath>
+    </Reference>
+    <Reference Include="FreeImageNET">
+      <HintPath>Data\FreeImageNET.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Core">
+      <HintPath>..\..\..\Prototype\Pdf2Text\Pdf2Text\lib\references\IKVM.OpenJDK.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.SwingAWT">
+      <HintPath>..\..\..\Prototype\Pdf2Text\Pdf2Text\lib\references\IKVM.OpenJDK.SwingAWT.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Text">
+      <HintPath>\\hiend-server001\Public2\Matthew\IKVM.OpenJDK.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.OpenJDK.Util">
+      <HintPath>..\..\..\Prototype\Pdf2Text\Pdf2Text\lib\copy\IKVM.OpenJDK.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="IKVM.Runtime">
+      <HintPath>..\..\..\Prototype\Pdf2Text\Pdf2Text\lib\copy\IKVM.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.3.3.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Backup\DWMS_OCR - as of 1 Oct 2012 (with new multithread)\DWMS_OCR\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="NHunspell">
+      <HintPath>..\..\DWMS\Bin\NHunspell.dll</HintPath>
+    </Reference>
+    <Reference Include="pdfbox-1.7.0">
+      <HintPath>..\..\..\Prototype\Pdf2Text\Pdf2Text\lib\references\pdfbox-1.7.0.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\Bll\CategorisationRuleDb.cs" />
+    <Compile Include="App_Code\Bll\CategorisationRuleKeywordDb.cs" />
+    <Compile Include="App_Code\Bll\CategorizationManager.cs" />
+    <Compile Include="App_Code\Bll\CategorizationManagerForDoc.cs" />
+    <Compile Include="App_Code\Bll\CategorizationSampleDoc.cs" />
+    <Compile Include="App_Code\Bll\CategorizationThread.cs" />
+    <Compile Include="App_Code\Bll\AppPersonalDb.cs" />
+    <Compile Include="App_Code\Bll\AppPersonalSalaryDb.cs" />
+    <Compile Include="App_Code\Bll\AppDocRefDb.cs" />
+    <Compile Include="App_Code\Bll\CategorizationHelpers.cs" />
+    <Compile Include="App_Code\Bll\AuditTrailDb.cs" />
+    <Compile Include="App_Code\Bll\CategorizationThreadForDoc.cs" />
+    <Compile Include="App_Code\Bll\CreditAssessmentDb.cs" />
+    <Compile Include="App_Code\Bll\IncomeAssessmentDb.cs" />
+    <Compile Include="App_Code\Bll\StopWordDb.cs" />
+    <Compile Include="App_Code\Bll\EmailTemplateDb.cs" />
+    <Compile Include="App_Code\Bll\ExceptionLogDb.cs" />
+    <Compile Include="App_Code\Bll\LogActionDb.cs" />
+    <Compile Include="App_Code\Bll\FaxSummaryXml.cs" />
+    <Compile Include="App_Code\Bll\MasterListDb.cs" />
+    <Compile Include="App_Code\Bll\MasterListItemDb.cs" />
+    <Compile Include="App_Code\Bll\MyDocDocumentXml.cs" />
+    <Compile Include="App_Code\Bll\MyDocSummaryXml.cs" />
+    <Compile Include="App_Code\Bll\SalesInterfaceDb.cs" />
+    <Compile Include="App_Code\Bll\SersInterfaceDb.cs" />
+    <Compile Include="App_Code\Bll\ResaleInterfaceDb.cs" />
+    <Compile Include="App_Code\Bll\PersonalData.cs" />
+    <Compile Include="App_Code\Bll\SetDocRefDb.cs" />
+    <Compile Include="App_Code\Bll\SetAppDb.cs" />
+    <Compile Include="App_Code\Bll\DepartmentDb.cs" />
+    <Compile Include="App_Code\Bll\DocumentQueue.cs" />
+    <Compile Include="App_Code\Bll\ErrorLogDb.cs" />
+    <Compile Include="App_Code\Bll\ImageInfo.cs" />
+    <Compile Include="App_Code\Bll\ImageManager.cs" />
+    <Compile Include="App_Code\Bll\ProfileDb.cs" />
+    <Compile Include="App_Code\Bll\RelevanceRankingDb.cs" />
+    <Compile Include="App_Code\Bll\DocAppDb.cs" />
+    <Compile Include="App_Code\Bll\DocDb.cs" />
+    <Compile Include="App_Code\Bll\DocOcr.cs" />
+    <Compile Include="App_Code\Bll\DocPersonalDb.cs" />
+    <Compile Include="App_Code\Bll\DocSetDb.cs" />
+    <Compile Include="App_Code\Bll\DocTypeDb.cs" />
+    <Compile Include="App_Code\Bll\EnumManager.cs" />
+    <Compile Include="App_Code\Bll\HleInterfaceDb.cs" />
+    <Compile Include="App_Code\Bll\LevenshteinDistance.cs" />
+    <Compile Include="App_Code\Bll\MetaDataDb.cs" />
+    <Compile Include="App_Code\Bll\MetaDataHardCoded.cs" />
+    <Compile Include="App_Code\Bll\MetaDataMaintenanceList.cs" />
+    <Compile Include="App_Code\Bll\MetaDataOcr.cs" />
+    <Compile Include="App_Code\Bll\MetaFieldDb.cs" />
+    <Compile Include="App_Code\Bll\PageOcr.cs" />
+    <Compile Include="App_Code\Bll\ParameterDb.cs" />
+    <Compile Include="App_Code\Bll\RawFileDb.cs" />
+    <Compile Include="App_Code\Bll\OcrManager.cs" />
+    <Compile Include="App_Code\Bll\RawPageDb.cs" />
+    <Compile Include="App_Code\Bll\ThumbnailManager.cs" />
+    <Compile Include="App_Code\Dal\AppDocRef.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppDocRef.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\AppPersonal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppPersonal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\AppPersonalSalary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppPersonalSalary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\AuditTrail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AuditTrail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\CreditAssessment.cs">
+      <DependentUpon>CreditAssessment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\CreditAssessment.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreditAssessment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\Doc.cs">
+      <DependentUpon>Doc.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Code\Dal\DocApp.cs">
+      <DependentUpon>DocApp.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Code\Dal\DocAppDs.cs" />
+    <Compile Include="App_Code\Dal\DocDs.cs" />
+    <Compile Include="App_Code\Dal\DocSet.cs">
+      <DependentUpon>DocSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Code\Dal\DocSetDs.cs" />
+    <Compile Include="App_Code\Dal\EmailTemplate.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmailTemplate.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\ExceptionLog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExceptionLog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\HleInterface.cs">
+      <DependentUpon>HleInterface.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Code\Dal\HleInterfaceDs.cs" />
+    <Compile Include="App_Code\Dal\IncomeAssessmentDs.cs" />
+    <Compile Include="App_Code\Dal\LogAction.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LogAction.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\MasterList1.Designer.cs">
+      <DependentUpon>MasterList.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="App_Code\Dal\MasterListItem1.Designer.cs">
+      <DependentUpon>MasterListItem.xsd</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="App_Code\Dal\Profile.cs">
+      <DependentUpon>Profile.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Code\Dal\Profile.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Profile.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\ProfileDs.cs" />
+    <Compile Include="App_Code\Dal\RawPage.cs">
+      <DependentUpon>RawPage.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Code\Dal\RawPageDs.cs" />
+    <Compile Include="App_Code\Dal\ResaleInterface.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResaleInterface.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\SalesInterface.cs">
+      <DependentUpon>SalesInterface.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="App_Code\Dal\SalesInterface.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalesInterface.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\SersInterface.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SersInterface.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\SetApp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SetApp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\SetDocRef.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SetDocRef.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\StopWord.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StopWord.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Helper\Logger.cs" />
+    <Compile Include="App_Code\Helper\Retrieve.cs" />
+    <Compile Include="App_Code\Bll\SampleDocDb.cs" />
+    <Compile Include="App_Code\Bll\SamplePageDb.cs" />
+    <Compile Include="App_Code\Bll\SectionDb.cs" />
+    <Compile Include="App_Code\Bll\UploadChannelDb.cs" />
+    <Compile Include="App_Code\Dal\CategorisationRule.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategorisationRule.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\CategorisationRuleKeyword.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategorisationRuleKeyword.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\Department.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Department.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\Doc.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Doc.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\DocApp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DocApp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\DocPersonal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DocPersonal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\DocSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DocSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\DocType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DocType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\ErrorLog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ErrorLog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\HleInterface.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HleInterface.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\MetaData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MetaData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\MetaField.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MetaField.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\Parameter.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Parameter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\RawFile.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RawFile.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\RawPage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RawPage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\RelevanceRanking.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RelevanceRanking.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\RelevanceRankingDs.cs" />
+    <Compile Include="App_Code\Dal\SampleDoc.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SampleDoc.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\SamplePage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SamplePage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\Section.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Section.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Dal\UploadChannel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UploadChannel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\Helper\Constants.cs" />
+    <Compile Include="App_Code\Helper\Format.cs" />
+    <Compile Include="App_Code\Helper\Util.cs" />
+    <Compile Include="App_Code\Helper\Validation.cs" />
+    <Compile Include="CdbService\CDBCompleteAccept.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CdbService\CDBModifiedVerified.cs" />
+    <Compile Include="CdbService\CDBVerifyUtil.cs" />
+    <Compile Include="CdbService\CDBVerify.cs" />
+    <Compile Include="CdbService\CDBAcceptUtil.cs" />
+    <Compile Include="CdbService\DWMS_CDB_Service.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CdbService\DWMS_CDB_Service.Designer.cs">
+      <DependentUpon>DWMS_CDB_Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeasService\DWMS_LEAS_Service.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LeasService\DWMS_LEAS_Service.Designer.cs">
+      <DependentUpon>DWMS_LEAS_Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeasService\LeasPersonInfoUpdate.cs" />
+    <Compile Include="LeasService\LeasPersonUpdateInfoUtil.cs" />
+    <Compile Include="MaintenanceService\DWMS_Maintenance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MaintenanceService\DWMS_Maintenance.Designer.cs">
+      <DependentUpon>DWMS_Maintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OcrService\DWMS_OCR_Service.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OcrService\DWMS_OCR_Service.Designer.cs">
+      <DependentUpon>DWMS_OCR_Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OcrService\DWMS_SampleDocOCR_Service.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="OcrService\DWMS_SampleDocOCR_Service.Designer.cs">
+      <DependentUpon>DWMS_SampleDocOCR_Service.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\AcceptDocWebRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\PersonInfoUpdateWebRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\VerifyDocWebRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Hunspellx64.dll" />
+    <Content Include="Data\Hunspellx86.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_Code\Dal\AppDocRef.xsc">
+      <DependentUpon>AppDocRef.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\AppDocRef.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppDocRef.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\AppDocRef.xss">
+      <DependentUpon>AppDocRef.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\AppPersonal.xsc">
+      <DependentUpon>AppPersonal.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\AppPersonal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppPersonal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\AppPersonal.xss">
+      <DependentUpon>AppPersonal.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\AppPersonalSalary.xsc">
+      <DependentUpon>AppPersonalSalary.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\AppPersonalSalary.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppPersonalSalary.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\AppPersonalSalary.xss">
+      <DependentUpon>AppPersonalSalary.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\AuditTrail.xsc">
+      <DependentUpon>AuditTrail.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\AuditTrail.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AuditTrail.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\AuditTrail.xss">
+      <DependentUpon>AuditTrail.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\CategorisationRule.xsc">
+      <DependentUpon>CategorisationRule.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\CategorisationRule.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CategorisationRule.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\CategorisationRule.xss">
+      <DependentUpon>CategorisationRule.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\CategorisationRuleKeyword.xsc">
+      <DependentUpon>CategorisationRuleKeyword.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\CategorisationRuleKeyword.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CategorisationRuleKeyword.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\CategorisationRuleKeyword.xss">
+      <DependentUpon>CategorisationRuleKeyword.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\CreditAssessment.xsc">
+      <DependentUpon>CreditAssessment.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\CreditAssessment.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CreditAssessment.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\CreditAssessment.xss">
+      <DependentUpon>CreditAssessment.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Department.xsc">
+      <DependentUpon>Department.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Department.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Department.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\Department.xss">
+      <DependentUpon>Department.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Doc.xsc">
+      <DependentUpon>Doc.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Doc.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Doc.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\Doc.xss">
+      <DependentUpon>Doc.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\DocApp.xsc">
+      <DependentUpon>DocApp.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\DocApp.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DocApp.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\DocApp.xss">
+      <DependentUpon>DocApp.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\DocPersonal.xsc">
+      <DependentUpon>DocPersonal.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\DocPersonal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DocPersonal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\DocPersonal.xss">
+      <DependentUpon>DocPersonal.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\DocSet.xsc">
+      <DependentUpon>DocSet.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\DocSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DocSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\DocSet.xss">
+      <DependentUpon>DocSet.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\DocType.xsc">
+      <DependentUpon>DocType.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\DocType.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DocType.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\DocType.xss">
+      <DependentUpon>DocType.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\EmailTemplate.xsc">
+      <DependentUpon>EmailTemplate.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\EmailTemplate.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>EmailTemplate.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\EmailTemplate.xss">
+      <DependentUpon>EmailTemplate.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\ErrorLog.xsc">
+      <DependentUpon>ErrorLog.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\ErrorLog.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ErrorLog.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\ErrorLog.xss">
+      <DependentUpon>ErrorLog.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\ExceptionLog.xsc">
+      <DependentUpon>ExceptionLog.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\ExceptionLog.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ExceptionLog.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\ExceptionLog.xss">
+      <DependentUpon>ExceptionLog.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\HleInterface.xsc">
+      <DependentUpon>HleInterface.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\HleInterface.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>HleInterface.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\HleInterface.xss">
+      <DependentUpon>HleInterface.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\LogAction.xsc">
+      <DependentUpon>LogAction.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\LogAction.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LogAction.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\LogAction.xss">
+      <DependentUpon>LogAction.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\MasterList.xsc">
+      <DependentUpon>MasterList.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\MasterList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterList1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\MasterList.xss">
+      <DependentUpon>MasterList.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\MasterListItem.xsc">
+      <DependentUpon>MasterListItem.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\MasterListItem.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MasterListItem1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\MasterListItem.xss">
+      <DependentUpon>MasterListItem.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\MetaData.xsc">
+      <DependentUpon>MetaData.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\MetaData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MetaData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\MetaData.xss">
+      <DependentUpon>MetaData.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\MetaField.xsc">
+      <DependentUpon>MetaField.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\MetaField.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MetaField.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\MetaField.xss">
+      <DependentUpon>MetaField.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Parameter.xsc">
+      <DependentUpon>Parameter.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Parameter.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Parameter.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\Parameter.xss">
+      <DependentUpon>Parameter.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Profile.xsc">
+      <DependentUpon>Profile.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Profile.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Profile.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\Profile.xss">
+      <DependentUpon>Profile.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\RawFile.xsc">
+      <DependentUpon>RawFile.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\RawFile.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RawFile.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\RawFile.xss">
+      <DependentUpon>RawFile.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\RawPage.xsc">
+      <DependentUpon>RawPage.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\RawPage.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RawPage.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\RawPage.xss">
+      <DependentUpon>RawPage.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\RelevanceRanking.xsc">
+      <DependentUpon>RelevanceRanking.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\RelevanceRanking.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RelevanceRanking.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\RelevanceRanking.xss">
+      <DependentUpon>RelevanceRanking.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\ResaleInterface.xsc">
+      <DependentUpon>ResaleInterface.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\ResaleInterface.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ResaleInterface.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\ResaleInterface.xss">
+      <DependentUpon>ResaleInterface.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SalesInterface.xsc">
+      <DependentUpon>SalesInterface.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SalesInterface.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SalesInterface.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\SalesInterface.xss">
+      <DependentUpon>SalesInterface.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SampleDoc.xsc">
+      <DependentUpon>SampleDoc.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SampleDoc.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SampleDoc.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\SampleDoc.xss">
+      <DependentUpon>SampleDoc.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SamplePage.xsc">
+      <DependentUpon>SamplePage.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SamplePage.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SamplePage.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\SamplePage.xss">
+      <DependentUpon>SamplePage.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Section.xsc">
+      <DependentUpon>Section.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\Section.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Section.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\Section.xss">
+      <DependentUpon>Section.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SersInterface.xsc">
+      <DependentUpon>SersInterface.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SersInterface.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SersInterface.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\SersInterface.xss">
+      <DependentUpon>SersInterface.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SetApp.xsc">
+      <DependentUpon>SetApp.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SetApp.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SetApp.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\SetApp.xss">
+      <DependentUpon>SetApp.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SetDocRef.xsc">
+      <DependentUpon>SetDocRef.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\SetDocRef.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SetDocRef.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\SetDocRef.xss">
+      <DependentUpon>SetDocRef.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\StopWord.xsc">
+      <DependentUpon>StopWord.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\StopWord.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StopWord.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\StopWord.xss">
+      <DependentUpon>StopWord.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\UploadChannel.xsc">
+      <DependentUpon>UploadChannel.xsd</DependentUpon>
+    </None>
+    <None Include="App_Code\Dal\UploadChannel.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UploadChannel.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="App_Code\Dal\UploadChannel.xss">
+      <DependentUpon>UploadChannel.xsd</DependentUpon>
+    </None>
+    <None Include="Data\en_US.aff" />
+    <None Include="Data\en_US.dic" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\AcceptDocWebRef\BE01JAcceptDoc.wsdl" />
+    <None Include="Web References\AcceptDocWebRef\BE01JOutputDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\AcceptDocWebRef\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\PersonInfoUpdateWebRef\BP27JDwmsPersonInfoUpdate.wsdl" />
+    <None Include="Web References\PersonInfoUpdateWebRef\BP27JDwmsResultDto.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\PersonInfoUpdateWebRef\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\VerifyDocWebRef\BE01JOutputDTO.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\VerifyDocWebRef\BE01JVerifyDoc.wsdl" />
+    <None Include="Web References\VerifyDocWebRef\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CdbService\DWMS_CDB_Service.resx">
+      <DependentUpon>DWMS_CDB_Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeasService\DWMS_LEAS_Service.resx">
+      <DependentUpon>DWMS_LEAS_Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaintenanceService\DWMS_Maintenance.resx">
+      <DependentUpon>DWMS_Maintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OcrService\DWMS_OCR_Service.resx">
+      <DependentUpon>DWMS_OCR_Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OcrService\DWMS_SampleDocOCR_Service.resx">
+      <DependentUpon>DWMS_SampleDocOCR_Service.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="C:\BT\BT - New Staff ID In Leas Service\BP27JDwmsPersonInfoUpdate.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\PersonInfoUpdateWebRef\</RelPath>
+      <UpdateFromURL>C:\BT\BT - New Staff ID In Leas Service\BP27JDwmsPersonInfoUpdate.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DWMS_OCR_Service_PersonInfoUpdateWebRef_BP27JDwmsPersonInfoUpdateService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://intranet-appu.hdb.gov.sg/webapp/BE01EBCstmrDocService/services/BE01JAcceptDoc/wsdl/BE01JAcceptDoc.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\AcceptDocWebRef\</RelPath>
+      <UpdateFromURL>http://intranet-appu.hdb.gov.sg/webapp/BE01EBCstmrDocService/services/BE01JAcceptDoc/wsdl/BE01JAcceptDoc.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DWMS_OCR_Service_AcceptDocWebRef_BE01JAcceptDocService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://intranet-appu.hdb.gov.sg/webapp/BE01EBCstmrDocService/services/BE01JVerifyDoc/wsdl/BE01JVerifyDoc.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\VerifyDocWebRef\</RelPath>
+      <UpdateFromURL>http://intranet-appu.hdb.gov.sg/webapp/BE01EBCstmrDocService/services/BE01JVerifyDoc/wsdl/BE01JVerifyDoc.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>DWMS_OCR_Service_VerifyDocWebRef_BE01JVerifyDocService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

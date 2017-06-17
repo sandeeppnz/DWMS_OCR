@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tns3="http://dto.filing.be01.hdb.gov.sg" xmlns:intf="http://ejb.be01.hdb.gov.sg" xmlns:wsi="http://ws-i.org/profiles/basic/1.1/xsd" xmlns:tns2="http://dto.service.web.be01.hdb.gov.sg" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns4="http://dto.enq.be01.hdb.gov.sg" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:impl="http://ejb.be01.hdb.gov.sg" targetNamespace="http://ejb.be01.hdb.gov.sg" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://dto.service.web.be01.hdb.gov.sg">
+      <xsd:complexType name="BE01JAuthenticationDTO">
+        <xsd:sequence>
+          <xsd:element name="userName" nillable="true" type="xsd:string" />
+          <xsd:element name="passWord" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01JSystemInfoDTO">
+        <xsd:sequence>
+          <xsd:element name="updateSystemId" nillable="true" type="xsd:string" />
+          <xsd:element name="updateDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="updateTime" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="fileSystemId" nillable="true" type="xsd:string" />
+          <xsd:element name="fileDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="verificationUserId" nillable="true" type="xsd:string" />
+          <xsd:element name="completenessUserId" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01JBusinessInfoDTO">
+        <xsd:sequence>
+          <xsd:element name="businessTransactionNumber" nillable="true" type="xsd:string" />
+          <xsd:element name="businessRefNumber" nillable="true" type="xsd:string" />
+          <xsd:element name="customerInfoList" nillable="true" type="tns2:ArrayOfBE01JCustomerInfoDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01JCustomerInfoDTO">
+        <xsd:sequence>
+          <xsd:element name="customerIdFromSource" nillable="true" type="xsd:string" />
+          <xsd:element name="identityNo" nillable="true" type="xsd:string" />
+          <xsd:element name="identityType" nillable="true" type="xsd:string" />
+          <xsd:element name="customerName" nillable="true" type="xsd:string" />
+          <xsd:element name="docCounter" type="xsd:int" />
+          <xsd:element name="documentInfoList" nillable="true" type="tns2:ArrayOfBE01JDocumentInfoDTO" />
+          <xsd:element name="customerType" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01JDocumentInfoDTO">
+        <xsd:sequence>
+          <xsd:element name="docId" nillable="true" type="xsd:string" />
+          <xsd:element name="docIdSub" nillable="true" type="xsd:string" />
+          <xsd:element name="docDescription" nillable="true" type="xsd:string" />
+          <xsd:element name="docStartDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="docEndDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="identityNoSub" nillable="true" type="xsd:string" />
+          <xsd:element name="customerIdSubFromSource" nillable="true" type="xsd:string" />
+          <xsd:element name="imageInfoList" nillable="true" type="tns2:ArrayOfBE01JImageInfoDTO" />
+          <xsd:element name="docChannel" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01JImageInfoDTO">
+        <xsd:sequence>
+          <xsd:element name="imageUrl" nillable="true" type="xsd:string" />
+          <xsd:element name="imageName" nillable="true" type="xsd:string" />
+          <xsd:element name="imageSize" nillable="true" type="xsd:string" />
+          <xsd:element name="docRecievedSourceDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="cmDocumentId" nillable="true" type="xsd:string" />
+          <xsd:element name="certificateNumber" nillable="true" type="xsd:string" />
+          <xsd:element name="certificateDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="personInfoList" nillable="true" type="tns2:ArrayOfBE01JPersonIdentityInfoDTO" />
+          <xsd:element name="vrfdWithOriginal" type="xsd:boolean" />
+          <xsd:element name="imageCondition" nillable="true" type="xsd:string" />
+          <xsd:element name="dwmsDocumentId" nillable="true" type="xsd:string" />
+          <xsd:element name="localForeign" nillable="true" type="xsd:string" />
+          <xsd:element name="marriageType" nillable="true" type="xsd:string" />
+          <xsd:element name="imageAccepted" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01JPersonIdentityInfoDTO">
+        <xsd:sequence>
+          <xsd:element name="customerIdFromSource" nillable="true" type="xsd:string" />
+          <xsd:element name="identityNo" nillable="true" type="xsd:string" />
+          <xsd:element name="identityType" nillable="true" type="xsd:string" />
+          <xsd:element name="customerName" nillable="true" type="xsd:string" />
+          <xsd:element name="personInfo" nillable="true" type="tns2:BE01JPersonInfoDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01JPersonInfoDTO">
+        <xsd:sequence>
+          <xsd:element name="identityNo" nillable="true" type="xsd:string" />
+          <xsd:element name="identityType" nillable="true" type="xsd:string" />
+          <xsd:element name="customerName" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBE01JPersonIdentityInfoDTO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BE01JPersonIdentityInfoDTO" nillable="true" type="tns2:BE01JPersonIdentityInfoDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBE01JImageInfoDTO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BE01JImageInfoDTO" nillable="true" type="tns2:BE01JImageInfoDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBE01JDocumentInfoDTO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BE01JDocumentInfoDTO" nillable="true" type="tns2:BE01JDocumentInfoDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBE01JCustomerInfoDTO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BE01JCustomerInfoDTO" nillable="true" type="tns2:BE01JCustomerInfoDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://ejb.be01.hdb.gov.sg">
+      <xsd:import namespace="http://dto.enq.be01.hdb.gov.sg" />
+      <xsd:import namespace="http://dto.filing.be01.hdb.gov.sg" />
+      <xsd:import namespace="http://dto.service.web.be01.hdb.gov.sg" />
+      <xsd:element name="verifyDocumentResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="verifyDocumentReturn" nillable="true" type="tns3:BE01JOutputDTO" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="enquireVerifyDocument">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="vrfyEnqInput" nillable="true" type="tns4:BE01JVerifyEnquiryInputDTO" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="enquireVerifyDocumentResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="enquireVerifyDocumentReturn" nillable="true" type="tns3:BE01JOutputDTO" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="verifyDocument">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="authentication" nillable="true" type="tns2:BE01JAuthenticationDTO" />
+            <xsd:element name="systemDTO" nillable="true" type="tns2:BE01JSystemInfoDTO" />
+            <xsd:element name="businessDTO" nillable="true" type="tns2:BE01JBusinessInfoDTO" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://dto.filing.be01.hdb.gov.sg">
+      <xsd:complexType name="BE01JOutputDTO">
+        <xsd:sequence>
+          <xsd:element name="obsResultFlag" nillable="true" type="xsd:string" />
+          <xsd:element name="obsErrorCode" nillable="true" type="xsd:string" />
+          <xsd:element name="obsServerErrorMessage" nillable="true" type="xsd:string" />
+          <xsd:element name="businessOutput" nillable="true" type="tns3:BE01BusinessOutput" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01BusinessOutput">
+        <xsd:sequence>
+          <xsd:element name="resultFlg" type="xsd:boolean" />
+          <xsd:element name="errorCode" nillable="true" type="xsd:string" />
+          <xsd:element name="errorMessage" nillable="true" type="xsd:string" />
+          <xsd:element name="customerOutputList" nillable="true" type="tns3:ArrayOfBE01CustomerOutput" />
+          <xsd:element name="businessTransactionNumber" nillable="true" type="xsd:string" />
+          <xsd:element name="businessRefNumber" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01CustomerOutput">
+        <xsd:sequence>
+          <xsd:element name="resultFlg" type="xsd:boolean" />
+          <xsd:element name="errorCode" nillable="true" type="xsd:string" />
+          <xsd:element name="errorMessage" nillable="true" type="xsd:string" />
+          <xsd:element name="documentOutputList" nillable="true" type="tns3:ArrayOfBE01DocumentOutput" />
+          <xsd:element name="customerIdFromSource" nillable="true" type="xsd:string" />
+          <xsd:element name="identityNo" nillable="true" type="xsd:string" />
+          <xsd:element name="identityType" nillable="true" type="xsd:string" />
+          <xsd:element name="customerName" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01DocumentOutput">
+        <xsd:sequence>
+          <xsd:element name="resultFlg" type="xsd:boolean" />
+          <xsd:element name="errorCode" nillable="true" type="xsd:string" />
+          <xsd:element name="errorMessage" nillable="true" type="xsd:string" />
+          <xsd:element name="imageOutputList" nillable="true" type="tns3:ArrayOfBE01ImageOutput" />
+          <xsd:element name="docId" nillable="true" type="xsd:string" />
+          <xsd:element name="docIdSub" nillable="true" type="xsd:string" />
+          <xsd:element name="docStartDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="docEndDate" nillable="true" type="xsd:dateTime" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01ImageOutput">
+        <xsd:sequence>
+          <xsd:element name="resultFlg" type="xsd:boolean" />
+          <xsd:element name="cmDocumentId" nillable="true" type="xsd:string" />
+          <xsd:element name="dwmsDocumentId" nillable="true" type="xsd:string" />
+          <xsd:element name="errorCode" nillable="true" type="xsd:string" />
+          <xsd:element name="errorMessage" nillable="true" type="xsd:string" />
+          <xsd:element name="personOutputList" nillable="true" type="tns3:ArrayOfBE01PersonOutput" />
+          <xsd:element name="numDocGroup" nillable="true" type="xsd:string" />
+          <xsd:element name="numDocAccept" nillable="true" type="xsd:string" />
+          <xsd:element name="numDocStatus" nillable="true" type="xsd:string" />
+          <xsd:element name="acceptUserId" nillable="true" type="xsd:string" />
+          <xsd:element name="tmeDocAccept" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="systemInfo" nillable="true" type="tns3:BE01JSystemOutput" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01PersonOutput">
+        <xsd:sequence>
+          <xsd:element name="resultFlg" type="xsd:boolean" />
+          <xsd:element name="errorCode" nillable="true" type="xsd:string" />
+          <xsd:element name="errorMessage" nillable="true" type="xsd:string" />
+          <xsd:element name="customerIdFromSource" nillable="true" type="xsd:string" />
+          <xsd:element name="identityNo" nillable="true" type="xsd:string" />
+          <xsd:element name="identityType" nillable="true" type="xsd:string" />
+          <xsd:element name="customerName" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBE01PersonOutput">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BE01PersonOutput" nillable="true" type="tns3:BE01PersonOutput" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BE01JSystemOutput">
+        <xsd:sequence>
+          <xsd:element name="updateSystemId" nillable="true" type="xsd:string" />
+          <xsd:element name="updateDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="updateTime" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="fileSystemId" nillable="true" type="xsd:string" />
+          <xsd:element name="fileDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="verificationUserId" nillable="true" type="xsd:string" />
+          <xsd:element name="completenessUserId" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBE01ImageOutput">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BE01ImageOutput" nillable="true" type="tns3:BE01ImageOutput" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBE01DocumentOutput">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BE01DocumentOutput" nillable="true" type="tns3:BE01DocumentOutput" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBE01CustomerOutput">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BE01CustomerOutput" nillable="true" type="tns3:BE01CustomerOutput" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://dto.enq.be01.hdb.gov.sg">
+      <xsd:complexType name="BE01JVerifyEnquiryInputDTO">
+        <xsd:sequence>
+          <xsd:element name="cmDocumentId" nillable="true" type="xsd:string" />
+          <xsd:element name="businessTransactionNumber" nillable="true" type="xsd:string" />
+          <xsd:element name="businessRefNumber" nillable="true" type="xsd:string" />
+          <xsd:element name="customerIdFromSource" nillable="true" type="xsd:string" />
+          <xsd:element name="docId" nillable="true" type="xsd:string" />
+          <xsd:element name="docIdSub" nillable="true" type="xsd:string" />
+          <xsd:element name="docStartDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="docEndDate" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="identityNoSub" nillable="true" type="xsd:string" />
+          <xsd:element name="customerIdSubFromSource" nillable="true" type="xsd:string" />
+          <xsd:element name="verifiedUserId" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="verifyDocumentResponse">
+    <wsdl:part name="parameters" element="impl:verifyDocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="enquireVerifyDocumentResponse">
+    <wsdl:part name="parameters" element="impl:enquireVerifyDocumentResponse" />
+  </wsdl:message>
+  <wsdl:message name="verifyDocumentRequest">
+    <wsdl:part name="parameters" element="impl:verifyDocument" />
+  </wsdl:message>
+  <wsdl:message name="enquireVerifyDocumentRequest">
+    <wsdl:part name="parameters" element="impl:enquireVerifyDocument" />
+  </wsdl:message>
+  <wsdl:portType name="BE01JVerifyDocService">
+    <wsdl:operation name="verifyDocument">
+      <wsdl:input name="verifyDocumentRequest" message="impl:verifyDocumentRequest" />
+      <wsdl:output name="verifyDocumentResponse" message="impl:verifyDocumentResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="enquireVerifyDocument">
+      <wsdl:input name="enquireVerifyDocumentRequest" message="impl:enquireVerifyDocumentRequest" />
+      <wsdl:output name="enquireVerifyDocumentResponse" message="impl:enquireVerifyDocumentResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BE01JVerifyDocSoapBinding" type="impl:BE01JVerifyDocService">
+    <wsaw:UsingAddressing wsdl:required="false" />
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="verifyDocument">
+      <wsdlsoap:operation soapAction="verifyDocument" />
+      <wsdl:input name="verifyDocumentRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="verifyDocumentResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enquireVerifyDocument">
+      <wsdlsoap:operation soapAction="enquireVerifyDocument" />
+      <wsdl:input name="enquireVerifyDocumentRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="enquireVerifyDocumentResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BE01JVerifyDocService">
+    <wsdl:port name="BE01JVerifyDoc" binding="impl:BE01JVerifyDocSoapBinding">
+      <wsdlsoap:address location="http://intranet-appu.hdb.gov.sg:80/webapp/BE01EBCstmrDocService/services/BE01JVerifyDoc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

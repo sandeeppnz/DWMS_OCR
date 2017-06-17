@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:intf="http://service.dwms.bp27.hdb.gov.sg" xmlns:wsi="http://ws-i.org/profiles/basic/1.1/xsd" xmlns:tns2="http://dto.dwms.bp27.hdb.gov.sg" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://service.dwms.bp27.hdb.gov.sg" targetNamespace="http://service.dwms.bp27.hdb.gov.sg" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://dto.dwms.bp27.hdb.gov.sg">
+      <xsd:complexType name="BP27JDwmsAuthenticationDTO">
+        <xsd:sequence>
+          <xsd:element name="userName" nillable="true" type="xsd:string" />
+          <xsd:element name="password" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BP27JDwmsCaseDTO">
+        <xsd:sequence>
+          <xsd:element name="numHla" nillable="true" type="xsd:string" />
+          <xsd:element name="personDetail" nillable="true" type="tns2:ArrayOfBP27JDwmsPersonInfoDTO" />
+          <xsd:element name="docImage" nillable="true" type="tns2:BP27JDwmsDocumentImageDTO" />
+          <xsd:element name="numUserId" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BP27JDwmsPersonInfoDTO">
+        <xsd:sequence>
+          <xsd:element name="numNric" nillable="true" type="xsd:string" />
+          <xsd:element name="amtAvgOvertime" nillable="true" type="xsd:string" />
+          <xsd:element name="amtAvgAllowance" nillable="true" type="xsd:string" />
+          <xsd:element name="amtCaIncome" nillable="true" type="xsd:string" />
+          <xsd:element name="monthlyIncome" nillable="true" type="tns2:ArrayOfBP27JDwmsMonthlyIncomeDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BP27JDwmsMonthlyIncomeDTO">
+        <xsd:sequence>
+          <xsd:element name="dteIncome" nillable="true" type="xsd:dateTime" />
+          <xsd:element name="amtIncome" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBP27JDwmsMonthlyIncomeDTO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BP27JDwmsMonthlyIncomeDTO" nillable="true" type="tns2:BP27JDwmsMonthlyIncomeDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfBP27JDwmsPersonInfoDTO">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="BP27JDwmsPersonInfoDTO" nillable="true" type="tns2:BP27JDwmsPersonInfoDTO" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BP27JDwmsDocumentImageDTO">
+        <xsd:sequence>
+          <xsd:element name="url" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="BP27JDwmsResultDto">
+        <xsd:sequence>
+          <xsd:element name="errorCode" nillable="true" type="xsd:string" />
+          <xsd:element name="errorMessage" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://service.dwms.bp27.hdb.gov.sg">
+      <xsd:import namespace="http://dto.dwms.bp27.hdb.gov.sg" />
+      <xsd:element name="updatePersonInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="updatePersonInfoReturn" nillable="true" type="tns2:BP27JDwmsResultDto" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="updatePersonInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="authentication" nillable="true" type="tns2:BP27JDwmsAuthenticationDTO" />
+            <xsd:element name="input" nillable="true" type="tns2:BP27JDwmsCaseDTO" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="updatePersonInfoResponse">
+    <wsdl:part name="parameters" element="impl:updatePersonInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="updatePersonInfoRequest">
+    <wsdl:part name="parameters" element="impl:updatePersonInfo" />
+  </wsdl:message>
+  <wsdl:portType name="BP27JDwmsPersonInfoUpdate">
+    <wsdl:operation name="updatePersonInfo">
+      <wsdl:input name="updatePersonInfoRequest" message="impl:updatePersonInfoRequest" />
+      <wsdl:output name="updatePersonInfoResponse" message="impl:updatePersonInfoResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BP27JDwmsPersonInfoUpdateSoapBinding" type="impl:BP27JDwmsPersonInfoUpdate">
+    <wsaw:UsingAddressing wsdl:required="false" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" />
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="updatePersonInfo">
+      <wsdlsoap:operation soapAction="updatePersonInfo" />
+      <wsdl:input name="updatePersonInfoRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="updatePersonInfoResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BP27JDwmsPersonInfoUpdateService">
+    <wsdl:port name="BP27JDwmsPersonInfoUpdate" binding="impl:BP27JDwmsPersonInfoUpdateSoapBinding">
+      <wsdlsoap:address location="http://localhost:9080/BP27WSDwmsWeb/services/BP27JDwmsPersonInfoUpdate" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

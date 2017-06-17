@@ -1,0 +1,368 @@
+D:\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+D:\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+D:\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Communications.PipeMessaging.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Api.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Definitions.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.HtmlHandler.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Manager.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrEngine.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrResultChecker.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.PdfHandler.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.RtfHandler.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.TxtHandler.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImage.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImageOD.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Exceptions.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Settings.DLL
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Utilities.UnmanagedLibraryLoader.DLL
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\FreeImageNET.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\IKVM.OpenJDK.Text.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\NHunspell.dll
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.pdb
+Y:\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.pdb
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csprojResolveAssemblyReference.cache
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csproj.GenerateResource.Cache
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\ResolveAssemblyReference.cache
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Communications.PipeMessaging.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Api.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Definitions.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.HtmlHandler.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Manager.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrEngine.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrResultChecker.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.PdfHandler.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.RtfHandler.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.TxtHandler.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImage.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImageOD.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Exceptions.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Settings.DLL
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Utilities.UnmanagedLibraryLoader.DLL
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\FreeImageNET.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\IKVM.OpenJDK.Text.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\NHunspell.dll
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.pdb
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.pdb
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\FreeImageNET.dll
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csprojResolveAssemblyReference.cache
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csproj.GenerateResource.Cache
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+D:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Communications.PipeMessaging.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Api.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Definitions.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.HtmlHandler.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Manager.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrEngine.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrResultChecker.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.PdfHandler.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.RtfHandler.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.TxtHandler.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImage.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImageOD.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Exceptions.dll
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Settings.DLL
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Utilities.UnmanagedLibraryLoader.DLL
+D:\DWMS_OCR\DWMS_OCR\bin\Debug\IKVM.OpenJDK.Text.dll
+Y:\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+\\HIEND-SERVER001\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\ResGen.read.1.tlog
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\ResGen.write.1.tlog
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.dll
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.dll
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\FreeImageNET.dll
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\NHunspell.dll
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.pdb
+C:\HIEND\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.pdb
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+C:\HIEND\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\bin\Debug\FreeImageNET.dll
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+E:\Hiend Deploy\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.dll
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.dll
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\FreeImageNET.dll
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\NHunspell.dll
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.pdb
+C:\DWMS\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.pdb
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+C:\DWMS\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Communications.PipeMessaging.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Api.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Definitions.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.HtmlHandler.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Manager.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrEngine.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrResultChecker.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.PdfHandler.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.RtfHandler.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.TxtHandler.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImage.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImageOD.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Exceptions.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Settings.DLL
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Utilities.UnmanagedLibraryLoader.DLL
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\FreeImageNET.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\NHunspell.dll
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.pdb
+C:\Projects\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.pdb
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csprojResolveAssemblyReference.cache
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csproj.GenerateResource.Cache
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+C:\Projects\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Cyotek.GhostScript.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\FreeImageNET.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\NHunspell.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Cyotek.GhostScript.pdb
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.pdb
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csprojResolveAssemblyReference.cache
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csproj.GenerateResource.Cache
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\Cyotek.GhostScript.dll
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.dll
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\FreeImageNET.dll
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\NHunspell.dll
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\Cyotek.GhostScript.pdb
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.pdb
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csprojResolveAssemblyReference.cache
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csproj.GenerateResource.Cache
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+C:\Projects\DWMS_OCR 32 Bit With New Channel Changes\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.LeasService.DWMS_LEAS_Service.resources
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.Communications.PipeMessaging.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.Api.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.Definitions.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.HtmlHandler.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.Manager.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrEngine.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrResultChecker.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.PdfHandler.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.RtfHandler.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.TxtHandler.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.PdfToImage.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.PdfToImageOD.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.Shared.Exceptions.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.Shared.Settings.DLL
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.Utilities.UnmanagedLibraryLoader.DLL
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Cyotek.GhostScript.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\FreeImageNET.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\IKVM.OpenJDK.Text.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\NHunspell.dll
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Cyotek.GhostScript.pdb
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.pdb
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csprojResolveAssemblyReference.cache
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.LeasService.DWMS_LEAS_Service.resources
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csproj.GenerateResource.Cache
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+E:\Projects\DWMS_OCR 32bit\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.Communications.PipeMessaging.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.Api.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.Definitions.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.HtmlHandler.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.Manager.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrEngine.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrResultChecker.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.PdfHandler.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.RtfHandler.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.OCR.TxtHandler.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.PdfToImage.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.PdfToImageOD.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.Shared.Exceptions.dll
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.Shared.Settings.DLL
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\Aquaforest.Utilities.UnmanagedLibraryLoader.DLL
+C:\Projects\DWMS_OCR 32bit\DWMS_OCR\bin\Debug\IKVM.OpenJDK.Text.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.manifest
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.application
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.pdb
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Communications.PipeMessaging.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Api.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Definitions.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.HtmlHandler.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.Manager.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrEngine.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.OcrResultChecker.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.PdfHandler.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.RtfHandler.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.OCR.TxtHandler.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImage.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.PdfToImageOD.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Exceptions.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Shared.Settings.DLL
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Aquaforest.Utilities.UnmanagedLibraryLoader.DLL
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\FreeImageNET.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\IKVM.OpenJDK.Text.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\NHunspell.dll
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.pdb
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\bin\Debug\Cyotek.GhostScript.PdfConversion.pdb
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csprojResolveAssemblyReference.cache
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.CdbService.DWMS_CDB_Service.resources
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.LeasService.DWMS_LEAS_Service.resources
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.MaintenanceService.DWMS_Maintenance.resources
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_OCR_Service.resources
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.ProjectInstaller.resources
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.OcrService.DWMS_SampleDocOCR_Service.resources
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR.Properties.Resources.resources
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.csproj.GenerateResource.Cache
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe.manifest
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.application
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+\\192.168.1.79\Websites\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb
+D:\Hiend\Codes\DWMS_OCR\DWMS_OCR\bin\Debug\DWMS_OCR_Service.exe.config
+D:\Hiend\Codes\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.exe
+D:\Hiend\Codes\DWMS_OCR\DWMS_OCR\obj\x86\Debug\DWMS_OCR_Service.pdb

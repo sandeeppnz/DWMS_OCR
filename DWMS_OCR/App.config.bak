@@ -1,0 +1,153 @@
+﻿<?xml version="1.0"?>
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="DWMS_OCR.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <appSettings>
+
+    <!--HDB Server Folders-->
+    <add key="SerivceRestart" value="C:\Program Files\Hiend Software Private Limited\DWMS_OCR_Checker/DWMS_Service_Restart.cmd" />
+    <!--<add key="SerivceRestart" value="C:\Program Files (x86)\Hiend Software Private Limited\DWMS_OCR_Checker/DWMS_Service_Restart.cmd" />-->
+    <add key="DocsForOcrFolder" value="E:\Websites\DWMS\App_Data\ForOcr"/>
+    <add key="RawPageOcrFolder" value="E:\Websites\DWMS\App_Data\RawPage"/>
+    <add key="SampleForOcrDocsFolder" value="E:\Websites\DWMS\App_Data\SampleDocs"/>
+    <add key="SampleDocsOcrResultFolder" value="E:\Websites\DWMS\App_Data\SampleDocsOcrResult"/>
+    <add key="MyDocOcrFolder" value="E:\Websites\DWMS\App_Data\MyDoc"/>
+    <add key="FaxOcrFolder" value="E:\Websites\DWMS\App_Data\Fax"/>
+    <add key="ScanOcrFolder" value="E:\Websites\DWMS\App_Data\Scan"/>
+    <add key="EmailOcrFolder" value="E:\Websites\DWMS\App_Data\Email"/>
+    <add key="WebServiceOcrFolder" value="E:\Websites\DWMS\App_Data\WebService"/>
+    <add key="ImportedMyDocOcrFolder" value="E:\Websites\DWMS\App_Data\MyDoc\Imported"/>
+    <add key="ImportedFaxOcrFolder" value="E:\Websites\DWMS\App_Data\Fax\Imported"/>
+    <add key="ImportedScanOcrFolder" value="E:\Websites\DWMS\App_Data\Scan\Imported"/>
+    <add key="ImportedEmailOcrFolder" value="E:\Websites\DWMS\App_Data\Email\Imported"/>
+    <add key="ImportedWebServiceOcrFolder" value="E:\Websites\DWMS\App_Data\WebService\Imported"/>
+    <add key="FailedMyDocOcrFolder" value="E:\Websites\DWMS\App_Data\MyDoc\Failed"/>
+    <add key="FailedFaxOcrFolder" value="E:\Websites\DWMS\App_Data\Fax\Failed"/>
+    <add key="FailedScanOcrFolder" value="E:\Websites\DWMS\App_Data\Scan\Failed"/>
+    <add key="FailedEmailOcrFolder" value="E:\Websites\DWMS\App_Data\Email\Failed"/>
+    <add key="FailedWebServiceOcrFolder" value="E:\Websites\DWMS\App_Data\WebService\Failed"/>
+    <add key="TempFolder" value="E:\Websites\DWMS\App_Data\Temp"/>
+    <add key="SpellCheckLibraryFolder" value="E:\Websites\DWMS\Bin"/>
+    <add key="DWMSDomain" value="http://heams2/DWMS/"/>
+    <add key="EmailDomain" value="hdb.gov.sg"/>
+    <add key="Logging" value="true"/>
+    <add key="DetailLogging" value="false"/>
+
+    <!--DWMS to CDB-->
+    <add key="RunVerify" value="true"/>
+    <add key="RunModifiedVerify" value="true"/>
+    <add key="RunCompleteAccept" value="true"/>
+
+    <add key="isTestXMLInputVerify" value="false"/>
+    <add key="isTestXMLInputModifiedVerify" value="false"/>
+    <add key="isTestXMLInputCompleteAccept" value="false"/>
+
+    <add key="TestInputXMLForDWMSToCDBFilePathAndNameVerify" value="E:\Websites\DWMS\App_Data\WebService\verify1.xml"/>
+    <add key="TestInputXMLForDWMSToCDBFilePathAndNameModifiedVerify" value="E:\Websites\DWMS\App_Data\WebService\verify1.xml"/>
+    <add key="TestInputXMLForDWMSToCDBFilePathAndNameCompleteAccept" value="E:\Websites\DWMS\App_Data\WebService\verify1.xml"/>
+
+    <add key="isSendToCDBVerify" value="true"/>
+    <add key="isSendToCDBModifiedVerify" value="true"/>
+    <add key="isSendToCDBCompleteAccept" value="true"/>
+
+    <add key="isCDBUpdateResultToDBVerify" value="true"/>
+    <add key="isCDBUpdateResultToDBModifiedVerify" value="true"/>
+    <add key="isCDBUpdateResultToDBCompleteAccept" value="true"/>
+
+    <add key="maxAttempstToSendToCDBEachDocAppVerify" value="1"/>
+    <add key="maxAttempstToSendToCDBEachDocAppModifiedVerify" value="1"/>
+    <add key="maxAttempstToSendToCDBEachDocAppCompleteAccept" value="1"/>
+
+    <add key="isTestRun" value="false"/>
+    <!--To make the service run once-->
+    <add key="isWriteXMLOuput" value="true"/>
+    <!--if require an xml output-->
+    <add key="isDetailLog" value="true"/>
+    <!--if require detail log-->
+    <add key="DownloadImagePageURL" value="http://heams2/DWMS/Common/DownloadImage.aspx"/>
+    <add key="UserNameDWMSToCDB" value="CDBDWMSPhase3"/>
+    <add key="PasswordDWMSToCDB" value="CDBDWMSINTERFACE"/>
+
+    <!--Hiend Local Server-->
+    <!--<add key="DocsForOcrFolder" value="D:\Websites\DWMS\App_Data\ForOcr" />
+    <add key="RawPageOcrFolder" value="D:\Websites\DWMS\App_Data\RawPage" />
+    <add key="SampleForOcrDocsFolder" value="D:\Websites\DWMS\App_Data\SampleDocs" />
+    <add key="SampleDocsOcrResultFolder" value="D:\Websites\DWMS\App_Data\SampleDocsOcrResult" />
+    <add key="MyDocOcrFolder" value="D:\Websites\DWMS\App_Data\MyDoc" />
+    <add key="FaxOcrFolder" value="D:\Websites\DWMS\App_Data\Fax" />
+    <add key="ScanOcrFolder" value="D:\Websites\DWMS\App_Data\Scan" />
+    <add key="EmailOcrFolder" value="D:\Websites\DWMS\App_Data\Email" />
+    <add key="ImportedMyDocOcrFolder" value="D:\Websites\DWMS\App_Data\MyDoc\Imported" />
+    <add key="ImportedFaxOcrFolder" value="D:\Websites\DWMS\App_Data\Fax\Imported" />
+    <add key="ImportedScanOcrFolder" value="D:\Websites\DWMS\App_Data\Scan\Imported" />
+    <add key="ImportedEmailOcrFolder" value="D:\Websites\DWMS\App_Data\Email\Imported" />
+    <add key="FailedMyDocOcrFolder" value="D:\Websites\DWMS\App_Data\MyDoc\Failed" />
+    <add key="FailedFaxOcrFolder" value="D:\Websites\DWMS\App_Data\Fax\Failed" />
+    <add key="FailedScanOcrFolder" value="D:\Websites\DWMS\App_Data\Scan\Failed" />
+    <add key="FailedEmailOcrFolder" value="D:\Websites\DWMS\App_Data\Email\Failed" />
+    <add key="TempFolder" value="D:\Websites\DWMS\App_Data\Temp" />
+    <add key="SpellCheckLibraryFolder" value="D:\Websites\DWMS\Bin" />-->
+
+    <!--Hiend Local Server (HDB Backup)-->
+    <!--
+    <add key="DocsForOcrFolder" value="D:\Websites\DWMS-HDB\App_Data\ForOcr" />
+    <add key="SampleForOcrDocsFolder" value="D:\Websites\DWMS-HDB\App_Data\SampleDocs" />
+    <add key="SampleDocsOcrResultFolder" value="D:\Websites\DWMS-HDB\App_Data\SampleDocsOcrResult" />
+    <add key="MyDocOcrFolder" value="D:\Websites\DWMS-HDB\App_Data\MyDoc" />
+    <add key="ImportedMyDocOcrFolder" value="D:\Websites\DWMS-HDB\App_Data\MyDoc\Imported" />
+    <add key="ImportedFaxOcrFolder" value="D:\Websites\DWMS-HDB\App_Data\Fax\Imported" />
+    <add key="SpellCheckLibraryFolder" value="D:\Websites\DWMS-HDB\Bin" />-->
+
+    <add key="OcrLicense" value="MT1TVDc4NTkyNzMxOzI9NTI0NjM3MTIzMTc4OTk0MjYxMTszPUhpZW5kIFNvZnR3YXJlIFB0ZTs0PTk5OTk5OTs1PUZhbHNlOzg9QzZGMzhBNzhBMzA3QTM4QUFCRTg3QkI4MzkxMkQ0NjMwNjlGQzM4NTg1MDA3NUU5MUMwRDg1ODIyNEU5NkYyMDs5PTEuMzAuMC4w"/>
+    <add key="ClientSettingsProvider.ServiceUri" value=""/>
+  </appSettings>
+  <connectionStrings>
+    <add name="DWMS_OCR.Properties.Settings.ASPNETDBConnectionString"
+      connectionString="Data Source=HEAMS2\SQLSERVER2008;Initial Catalog=DWMSDB;Persist Security Info=True;User ID=sa;Password=P@ssword;Connection Timeout=120"
+      providerName="System.Data.SqlClient" />
+    <!--<add name="DWMS_OCR.Properties.Settings.ASPNETDBConnectionString"
+      connectionString="Data Source=HEASQ3\SQLSERVER2008;Initial Catalog=DWMSDB;Persist Security Info=True;User ID=sa;Password=P@ssword;Connection Timeout=120"
+      providerName="System.Data.SqlClient" />-->
+  </connectionStrings>
+  <startup>
+    
+  <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0,Profile=Client"/></startup>
+  <system.web>
+    <membership defaultProvider="ClientAuthenticationMembershipProvider">
+      <providers>
+        <add name="ClientAuthenticationMembershipProvider" type="System.Web.ClientServices.Providers.ClientFormsAuthenticationMembershipProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri=""/>
+      </providers>
+    </membership>
+    <roleManager defaultProvider="ClientRoleProvider" enabled="true">
+      <providers>
+        <add name="ClientRoleProvider" type="System.Web.ClientServices.Providers.ClientRoleProvider, System.Web.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" serviceUri="" cacheTimeout="86400"/>
+      </providers>
+    </roleManager>
+  </system.web>
+  <system.net>
+    <mailSettings>
+      <smtp deliveryMethod="Network">
+        <network host="his50.hdb.gov.sg" port="25"/>
+      </smtp>
+    </mailSettings>
+  </system.net>
+  <system.serviceModel>
+    <bindings />
+    <client />
+  </system.serviceModel>
+  <applicationSettings>
+    <DWMS_OCR.Properties.Settings>
+      <setting name="DWMS_OCR_Service_AcceptDocWebRef_BE01JAcceptDocService"
+        serializeAs="String">
+        <value>http://intranet-appu.hdb.gov.sg:80/webapp/BE01EBCstmrDocService/services/BE01JAcceptDoc</value>
+      </setting>
+      <setting name="DWMS_OCR_Service_VerifyDocWebRef_BE01JVerifyDocService"
+        serializeAs="String">
+        <value>http://intranet-appu.hdb.gov.sg:80/webapp/BE01EBCstmrDocService/services/BE01JVerifyDoc</value>
+      </setting>
+    </DWMS_OCR.Properties.Settings>
+  </applicationSettings>
+</configuration>
